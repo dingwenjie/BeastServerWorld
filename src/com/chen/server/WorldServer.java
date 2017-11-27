@@ -32,8 +32,8 @@ public class WorldServer extends InnerServer
 	private static Logger log = LogManager.getLogger(WorldServer.class);
 	private static Object obj = new Object();
 	private static GameConfig config;
-	private static final String defaultGameConfig = "world-config/game-config.xml";
-	private static final String defaultInnerServerConfig = "world-config/inner-server-config.xml";
+	private static final String defaultGameConfig = "BeastServerWorld/world-config/game-config.xml";
+	private static final String defaultInnerServerConfig = "BeastServerWorld/world-config/inner-server-config.xml";
 	private static WorldServer server;
 	//消息池
 	private static MessagePool messagePool = new MessagePool();
